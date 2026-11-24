@@ -1,1 +1,27 @@
-
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "VMUsername": {
+            "value": "labuser"
+        },
+        "VMPassword": {
+            "value": "Password.1!!"
+        },
+        "DeploymentID": {
+            "value": "GET-DEPLOYMENT-ID"
+        },
+        "scriptFileName": {
+            "value": "bashscript.sh"
+        },
+        "imgid": {
+            "value": "/subscriptions/2b39737e-1727-4625-93f2-d5d6739f9a85/resourceGroups/CloudLabs-mgmt-rg/providers/Microsoft.Compute/galleries/ArrowCustomImages/images/arrow_lattice_linux_2025/versions/Latest"
+        },
+        "disksize": {
+            "value": "512"
+        },
+        "userEmail": {
+            "value": "GET-USER-EMAIL-ID"
+        }
+    }
+}
